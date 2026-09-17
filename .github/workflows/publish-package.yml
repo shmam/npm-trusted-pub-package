@@ -22,6 +22,6 @@ jobs:
 
       # Ensure npm 11.5.1 or later is installed
       - name: Update npm
-        run: npm install -g npm@latest
+        run: npm install -g npm
       - run: npm stage publish --access=public
         working-directory: ./shmam-trusted-publisher-pkg
